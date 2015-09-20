@@ -7,12 +7,20 @@ facebook_appid:   # appid for like button, remove from /_includes/share.html if 
 google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
 
 links:
-  - name:         VK
-    url:          http://vk.com/ma_sh
-    external:     true
   - name:         GitHub
     url:          http://github.com/mary-sh
     external:     true
+  - name:         Linkedin
+    url:          https://ru.linkedin.com/pub/maria-shornikova/69/8bb/3a7
+    external:     true
+  - name:         Facebook
+    url:          http://facebook.com/maria.shornikova
+    external:     true
+  - name:         VK
+    url:          http://vk.com/ma_sh
+    external:     true
+  
+  
 highlighter:      pygments
 permalink:        pretty
 markdown:         redcarpet
