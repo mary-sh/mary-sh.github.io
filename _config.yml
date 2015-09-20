@@ -1,0 +1,21 @@
+title:            Заголовок
+description:      Описание 
+url:              # Site url.
+signoff:          Маша
+disqus_shortname: # disqus comment thread for post header options. ( leave blank if unwanted. )
+facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
+google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
+
+links:
+  - name:         VK
+    url:          http://vk.com/ma_sh
+    external:     true
+  - name:         GitHub
+    url:          http://github.com/mary-sh
+    external:     true
+highlighter:      pygments
+permalink:        pretty
+markdown:         redcarpet
+redcarpet:
+  extensions:
+    - smart
