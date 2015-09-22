@@ -10,7 +10,7 @@ links:
   - name:         GitHub
     url:          http://github.com/mary-sh
     external:     true
-  - name:         Linkedin
+  - name:         LinkedIn
     url:          https://ru.linkedin.com/pub/maria-shornikova/69/8bb/3a7
     external:     true
   - name:         Facebook
@@ -19,7 +19,10 @@ links:
   - name:         VK
     url:          http://vk.com/ma_sh
     external:     true
-  
+  - name:         Instagram
+    url:          https://instagram.com/_ma_sh/
+    external:     true
+
   
 highlighter:      pygments
 permalink:        pretty
