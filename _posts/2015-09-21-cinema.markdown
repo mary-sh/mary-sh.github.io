@@ -1,7 +1,12 @@
 ---
 layout: post
-title:  "Простой чатик"
-date:   2015-09-21 23:55:15
+title:  "Посмотреть"
+date:   2015-09-22 12:05:15
 ---
 
-{% include chat.html %}
+- [Девушка с татуировкой дракона] (http://www.kinopoisk.ru/film/491724/) 2011
+- [Одержимость] (http://www.kinopoisk.ru/film/725190/) 2013
+- [Бегущий в лабиринте: Испытание огнём] (http://www.kinopoisk.ru/film/842673/) 2015
+***
+- [Иллюзия обмана](http://www.kinopoisk.ru/film/522892/) 2013
+
