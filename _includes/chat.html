@@ -9,7 +9,7 @@
 
     function messageToP(message) {
         return '<p id="' + message.time + '" style="color:' + message.color + ';">' +
-                '[' + (new Date(message.time)).toLocaleTimeString() + '] ' +
+                '[' + (new Date(message.time*1000)).toLocaleTimeString() + '] ' +
                 '<b>' + message.author + '</b>: '
                 + message.text +
                 '</p>';
