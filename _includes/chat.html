@@ -68,8 +68,7 @@
 
     function scrollChat() {
         var chatText = $('#chatText');
-        var pos = chatText.scrollTop() + 10;
-        chatText.scrollTop(pos);
+        chatText.scrollTop = chatText.scrollHeight;
     }
 
     $(function () {
