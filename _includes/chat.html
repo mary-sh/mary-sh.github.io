@@ -26,7 +26,7 @@
         };
     }
 
-    function getMessages() {
+    function getMessages(callback) {
         var chatText = $('#chatText');
         $.get(preffix + "/messages/",
                 function (messages) {
@@ -45,9 +45,10 @@
                     });
                 }
         );
+        callback();
     }
 
-    function insertMessage(message) {
+    function insertMessage(message, callback) {
         var chatText = $('#chatText'), current = $('#chatText p');
         var prevP = null;
         $.each(current, function (index, p) {
@@ -62,6 +63,12 @@
         } else {
             chatText.append(p);
         }
+        callback();
+    }
+
+    function scrollChat() {
+        var pos = chatText.scrollTop() + 10;
+        chatText.scrollTop(pos);
     }
 
     $(function () {
@@ -70,13 +77,8 @@
                 text = $('#text');
 
         setInterval(function () {
-            getMessages();
+            getMessages(scrollChat);
         }, 1000);
-
-        setInterval(function () {
-            var pos = chatText.scrollTop() + 10;
-            chatText.scrollTop(pos);
-        }, 100);
 
         text.keypress(function (event) {
             if (event.which == 13) {
@@ -87,7 +89,7 @@
                         author: username_value,
                         text: text_value
                     }, function (message) {
-                        insertMessage(message);
+                        insertMessage(message, scrollChat);
                         text.val('');
                     });
                 }
