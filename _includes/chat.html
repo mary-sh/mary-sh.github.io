@@ -6,28 +6,56 @@
 <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
 <script>
     var preffix = 'http://mail.masha.sexy:8000';
+
+    function messageToP(message) {
+        return '<p id="' + message.time + '"><b>' + message.author + '</b>: ' + message.text + '</p>';
+    }
+
+    function pToMessage(p) {
+        return {
+            time: parseFloat(p.id),
+            author: $(p).find('b').text()
+        };
+    }
+
     function getMessages() {
         var chatText = $('#chatText');
         $.get(preffix + "/messages/",
                 function (messages) {
                     var current = $('#chatText p');
                     var start_index = 0;
-                    $.each(current, function (index, m) {
-                        var msg_id = m.id, msg_author = $(m).find('b').text();
-                        if (msg_id != messages[index].time || msg_author != messages[index].author) {
-                            $(m).remove();
+                    $.each(current, function (index, p) {
+                        var oldMessage = pToMessage(p), newMessage = messages[index];
+                        if (oldMessage.time != newMessage.time || oldMessage.author != newMessage.author) {
+                            console.log('removing' + oldMessage);
+                            $(p).remove();
                         } else {
                             start_index = index + 1;
                         }
                     });
                     $.each(messages, function (index, message) {
-                        if (index >= start_index) {
-                            var msg = '<p id="' + message.time + '"><b>' + message.author + '</b>: ' + message.text + '</p>';
-                            chatText.append(msg);
-                        }
+                        if (index >= start_index) chatText.append(messageToP(message));
                     });
                 }
         );
+    }
+
+    function insertMessage(message) {
+        var chatText = $('#chatText'), current = $('#chatText p');
+        var prevP = null;
+        $.each(current, function (index, p) {
+            var oldMessage = pToMessage(p);
+            if (oldMessage.time < message.time) {
+                prevP = p;
+            }
+        });
+        var p = messageToP(message);
+        if (prevP) {
+            $(p).insertAfter(prevP);
+            console.log('insert after'+prevP);
+        } else {
+            chatText.append(p);
+        }
     }
 
     $(function () {
@@ -52,9 +80,9 @@
                     $.post(preffix + "/", {
                         author: username_value,
                         text: text_value
-                    }, function (data) {
-                        console.log(data);
-                        console.log(text);
+                    }, function (message) {
+                        insertMessage(message);
+                        text.val('');
                     });
                 }
             }
