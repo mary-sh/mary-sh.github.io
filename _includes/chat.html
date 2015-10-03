@@ -13,7 +13,7 @@
 
     function messageToP(message) {
         return '<p id="' + message.time + '" style="color:' + message.color + ';">' +
-                '[' + (new Date(message.time*1000)).toTimeString().substring(0, 8) + '] ' +
+                '[' + (new Date(message.time * 1000)).toTimeString().substring(0, 8) + '] ' +
                 '<b>' + message.author + '</b>: '
                 + message.text +
                 '</p>';
@@ -27,58 +27,43 @@
     }
 
     function getMessages(callback) {
-        var chatText = $('#chatText');
+        var messageBox = $('#chatText');
         $.get(preffix + "/messages/",
                 function (messages) {
-                    var current = $('#chatText p');
-                    var start_index = 0;
-                    $.each(current, function (index, p) {
+                    var startIndex = 0, oldMessages = messageBox.find('p');
+                    $.each(oldMessages, function (index, p) {
                         var oldMessage = pToMessage(p), newMessage = messages[index];
                         if (!newMessage || !(oldMessage.time == newMessage.time && oldMessage.author == newMessage.author)) {
                             $(p).remove();
                         } else {
-                            start_index = index + 1;
+                            startIndex = index + 1;
                         }
                     });
                     $.each(messages, function (index, message) {
-                        if (index >= start_index) chatText.append(messageToP(message));
+                        if (index >= startIndex) insertMessage(messageBox, message, callback);
                     });
                 }
         );
-        callback();
     }
 
-    function insertMessage(message, callback) {
-        var chatText = $('#chatText'), current = $('#chatText p');
-        var prevP = null;
-        $.each(current, function (index, p) {
-            var oldMessage = pToMessage(p);
-            if (oldMessage.time < message.time) {
-                prevP = p;
-            }
-        });
+    function insertMessage(messageBox, message, callback) {
         var p = messageToP(message);
-        if (prevP) {
-            $(p).insertAfter(prevP);
-        } else {
-            chatText.append(p);
-        }
-        callback();
+        messageBox.append(p);
+        callback(messageBox);
     }
 
-    function scrollChat() {
-        var chatText = $('#chatText');
-        chatText.scrollTop = chatText.scrollHeight;
+    function scrollChat(messageBox) {
+        messageBox.scrollTop(messageBox[0].scrollHeight);
     }
 
     $(function () {
-        var chatText = $('#chatText'),
+        var messageBox = $('#chatText'),
                 username = $('#username'),
                 text = $('#text');
 
         setInterval(function () {
             getMessages(scrollChat);
-        }, 10000);
+        }, 1000);
 
         text.keypress(function (event) {
             if (event.which == 13) {
@@ -89,7 +74,7 @@
                         author: username_value,
                         text: text_value
                     }, function (message) {
-                        insertMessage(message, scrollChat);
+                        insertMessage(messageBox, message, scrollChat);
                         text.val('');
                     });
                 }
