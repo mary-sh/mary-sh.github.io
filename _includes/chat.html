@@ -2,6 +2,10 @@
     #chatText > p {
         margin: 0;
     }
+
+    .container input {
+        display: block;
+    }
 </style>
 <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
 <script>
@@ -91,8 +95,8 @@
         });
     });
 </script>
-<div>
-    <div id="chatText" style="clear: both;border:solid 1px;overflow-x: scroll;height: 200px;"></div>
+<div class="container">
+    <div id="chatText" style="border:solid 1px;overflow-x: scroll;height: 300px;"></div>
     <input id="username" placeholder="username" size="15">
     <input id="text" placeholder="text" size="68">
 </div>
