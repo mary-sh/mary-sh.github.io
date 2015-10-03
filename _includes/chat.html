@@ -8,7 +8,10 @@
     var preffix = 'http://mail.masha.sexy:8000';
 
     function messageToP(message) {
-        return '<p id="' + message.time + '"><b>' + message.author + '</b>: ' + message.text + '</p>';
+        return '<p id="' + message.time + '" style="color:' + message.color + ';">' +
+                '<b>' + message.author + '</b>: '
+                + message.text +
+                '</p>';
     }
 
     function pToMessage(p) {
