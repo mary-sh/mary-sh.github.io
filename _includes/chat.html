@@ -52,8 +52,8 @@
                     $.post(preffix + "/", {
                         author: username_value,
                         text: text_value
-                    }, function () {
-                        alert(1234);
+                    })
+                    .done(function () {
                         text.val('');
                     });
                 }
