@@ -8,28 +8,26 @@
     var preffix = 'http://mail.masha.sexy:8000';
     function getMessages() {
         var chatText = $('#chatText');
-        $.ajax({
-            url: preffix + "/messages/",
-            crossDomain: true,
-            success: function (messages) {
-                var current = $('#chatText p');
-                var start_index = 0;
-                $.each(current, function(index, m) {
-                    var msg_id = m.id, msg_author = $(m).find('b').text();
-                    if (msg_id != messages[index].time || msg_author != messages[index].author) {
-                        $(m).remove();
-                    } else {
-                        start_index = index + 1;
-                    }
-                });
-                $.each(messages, function (index, message) {
-                    if (index >= start_index) {
-                        var msg = '<p id="' + message.time + '"><b>' + message.author + '</b>: ' + message.text + '</p>';
-                        chatText.append(msg);
-                    }
-                });
-            }
-        });
+        $.get(preffix + "/messages/",
+                function (messages) {
+                    var current = $('#chatText p');
+                    var start_index = 0;
+                    $.each(current, function (index, m) {
+                        var msg_id = m.id, msg_author = $(m).find('b').text();
+                        if (msg_id != messages[index].time || msg_author != messages[index].author) {
+                            $(m).remove();
+                        } else {
+                            start_index = index + 1;
+                        }
+                    });
+                    $.each(messages, function (index, message) {
+                        if (index >= start_index) {
+                            var msg = '<p id="' + message.time + '"><b>' + message.author + '</b>: ' + message.text + '</p>';
+                            chatText.append(msg);
+                        }
+                    });
+                }
+        );
     }
 
     $(function () {
@@ -55,6 +53,7 @@
                         author: username_value,
                         text: text_value
                     }, function () {
+                        alert(1234);
                         text.val('');
                     });
                 }
