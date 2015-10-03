@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Почитать"
+date:   2015-10-03 13:40:15
+---
+
+- [Игра в бисер] (https://en.wikipedia.org/wiki/The_Glass_Bead_Game) Герман Гессе, 1943
+- [Алгоритмы: построение и анализ] (https://en.wikipedia.org/wiki/The_Glass_Bead_Game) Томас Кормен и проч., 1990
+- [Python Algorithms: Mastering Basic Algorithms in the Python Language] (http://www.apress.com/9781430232377) Magnus Lie Hetland, 2010
