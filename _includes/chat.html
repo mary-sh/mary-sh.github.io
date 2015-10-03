@@ -4,11 +4,15 @@
     function getMessages() {
         var chatText = $('#chatText');
         chatText.empty();
-        $.get(preffix + "/messages/", function (messages) {
-            $.each(messages, function (index, message) {
-                var messageLine = '<b>' + message.author + '</b>: ' + message.text + '<br/>';
-                chatText.append(messageLine);
-            });
+        $.ajax({
+            url: preffix + "/messages/",
+            crossDomain: true,
+            success: function (messages) {
+                $.each(messages, function (index, message) {
+                    var messageLine = '<b>' + message.author + '</b>: ' + message.text + '<br/>';
+                    chatText.append(messageLine);
+                });
+            }
         });
     }
 
