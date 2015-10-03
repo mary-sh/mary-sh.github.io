@@ -8,6 +8,7 @@
     }
 </style>
 <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 <script>
     var preffix = 'http://mail.masha.sexy:8000';
 
@@ -59,7 +60,35 @@
     $(function () {
         var messageBox = $('#chatText'),
                 username = $('#username'),
-                text = $('#text');
+                text = $('#text'),
+                availableNames = [
+                    "ActionScript",
+                    "AppleScript",
+                    "Asp",
+                    "BASIC",
+                    "C",
+                    "C++",
+                    "Clojure",
+                    "COBOL",
+                    "ColdFusion",
+                    "Erlang",
+                    "Fortran",
+                    "Groovy",
+                    "Haskell",
+                    "Java",
+                    "JavaScript",
+                    "Lisp",
+                    "Perl",
+                    "PHP",
+                    "Python",
+                    "Ruby",
+                    "Scala",
+                    "Scheme"
+                ];
+
+        username.autocomplete({
+            source: availableNames
+        });
 
         setInterval(function () {
             getMessages(scrollChat);
