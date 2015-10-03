@@ -52,9 +52,9 @@
                     $.post(preffix + "/", {
                         author: username_value,
                         text: text_value
-                    })
-                    .done(function () {
-                        text.val('');
+                    }, function (data) {
+                        console.log(data);
+                        console.log(text);
                     });
                 }
             }
