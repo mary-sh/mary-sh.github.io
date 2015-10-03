@@ -26,8 +26,7 @@
                     var start_index = 0;
                     $.each(current, function (index, p) {
                         var oldMessage = pToMessage(p), newMessage = messages[index];
-                        if (oldMessage.time != newMessage.time || oldMessage.author != newMessage.author) {
-                            console.log('removing' + oldMessage);
+                        if (!newMessage || !(oldMessage.time == newMessage.time && oldMessage.author == newMessage.author)) {
                             $(p).remove();
                         } else {
                             start_index = index + 1;
@@ -52,7 +51,6 @@
         var p = messageToP(message);
         if (prevP) {
             $(p).insertAfter(prevP);
-            console.log('insert after'+prevP);
         } else {
             chatText.append(p);
         }
