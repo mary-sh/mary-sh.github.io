@@ -15,3 +15,6 @@ date:   2015-09-22 12:05:15
 - [Иллюзия обмана] (http://www.kinopoisk.ru/film/522892/) 2013
 - [Перелом] (http://www.kinopoisk.ru/film/220617/) 2007
 - [Стажер] (http://www.kinopoisk.ru/film/677893/) 2015
+- [Марсианин] (http://www.kinopoisk.ru/film/841700/) 2015
+- [Кто боится Вирджинии Вульф?] (http://www.kinopoisk.ru/film/490/) 1966
+- [Квартира] (http://www.kinopoisk.ru/film/3720/) 1996
