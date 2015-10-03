@@ -1,3 +1,8 @@
+<style media="screen" type="text/css">
+    #chatText > p {
+        margin: 0;
+    }
+</style>
 <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
 <script>
     var preffix = 'http://mail.masha.sexy:8000';
@@ -34,7 +39,7 @@
 
         setInterval(function () {
             getMessages();
-        }, 5000);
+        }, 1000);
 
         setInterval(function () {
             var pos = chatText.scrollTop() + 10;
