@@ -9,8 +9,8 @@
             crossDomain: true,
             success: function (messages) {
                 $.each(messages, function (index, message) {
-                    var messageLine = '<b>' + message.author + '</b>: ' + message.text + '<br/>';
-                    chatText.append(messageLine);
+                    var msg = '<p id="'+ message.time + '"><b>' + message.author + '</b>: ' + message.text + '</p>';
+                    chatText.append(msg);
                 });
             }
         });
@@ -23,7 +23,7 @@
 
         setInterval(function () {
             getMessages();
-        }, 1000);
+        }, 5000);
 
         setInterval(function () {
             var pos = chatText.scrollTop() + 10;
