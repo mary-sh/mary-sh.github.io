@@ -10,6 +10,7 @@ date:   2015-09-22 12:05:15
 - [Бегущий в лабиринте: Испытание огнём] (http://www.kinopoisk.ru/film/842673/) 2015
 - [Молчание ягнят] (http://www.kinopoisk.ru/film/345/) 1990
 - [Иллюзия обмана] (http://www.kinopoisk.ru/film/522892/) 2013
+- [Одиннадцать друзей Оушена] (http://www.kinopoisk.ru/film/770/) 2001
 
 ***
 
@@ -19,4 +20,3 @@ date:   2015-09-22 12:05:15
 - [Марсианин] (http://www.kinopoisk.ru/film/841700/) 2015
 - [Кто боится Вирджинии Вульф?] (http://www.kinopoisk.ru/film/490/) 1966
 - [Квартира] (http://www.kinopoisk.ru/film/3720/) 1996
-- [Одиннадцать друзей Оушена] (http://www.kinopoisk.ru/film/770/) 2001
