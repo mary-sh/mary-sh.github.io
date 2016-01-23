@@ -41,4 +41,6 @@ date:   2015-09-22 12:05:15
 - [Проживая зиму] (http://www.kinopoisk.ru/film/53951/) 2005
 - [Валентинка] (http://www.kinopoisk.ru/film/404459/) 2010
 - [В диких условиях] (http://www.kinopoisk.ru/film/252626/) 2007
+- [Обвиняемые] (http://www.kinopoisk.ru/film/9842/) 1988
+- [Бобер] (http://www.kinopoisk.ru/film/474521/) 2010
 

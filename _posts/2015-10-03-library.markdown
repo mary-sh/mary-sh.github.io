@@ -15,3 +15,5 @@ date:   2015-10-03 13:40:15
 - [Загадочная история Бенджамина Баттона] (https://en.wikipedia.org/wiki/The_Curious_Case_of_Benjamin_Button_(short_story)) Фрэнсис Скотт Фицджеральд, 1922
 - [Алгоритмы: построение и анализ] (https://en.wikipedia.org/wiki/Introduction_to_Algorithms) Томас Кормен и проч., 1990
 - [Python Algorithms: Mastering Basic Algorithms in the Python Language] (http://www.apress.com/9781430232377) Magnus Lie Hetland, 2010
+- Волшебная гора, Томас Манн, 1924
+- Сага о Форсайтах, Джон Голсуорси, 1906
