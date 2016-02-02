@@ -1,7 +1,0 @@
----
-layout: post
-title:  "Первый"
-date:   2015-09-20 09:44:15
----
-
-{% include song1.html %}
