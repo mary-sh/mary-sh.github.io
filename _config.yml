@@ -24,7 +24,7 @@ links:
     external:     true
 
   
-highlighter:      pygments
+highlighter:      rouge
 permalink:        pretty
 markdown:         redcarpet
 redcarpet:
