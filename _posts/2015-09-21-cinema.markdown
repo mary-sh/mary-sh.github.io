@@ -44,4 +44,5 @@ date:   2015-09-22 12:05:15
 - [В диких условиях](http://www.kinopoisk.ru/film/252626/) 2007
 - [Обвиняемые](http://www.kinopoisk.ru/film/9842/) 1988
 - [Бобер](http://www.kinopoisk.ru/film/474521/) 2010
+- [И грянул гром](http://www.kinopoisk.ru/film/4473/) 2005
 
