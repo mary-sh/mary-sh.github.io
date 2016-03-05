@@ -35,6 +35,7 @@ date:   2015-09-22 12:05:15
 - [В активном поиске](http://www.kinopoisk.ru/film/462538/) 2016
 - [Зверополис](http://www.kinopoisk.ru/film/775276/) 2016
 - [Назарин](http://www.kinopoisk.ru/film/59136/) 1958
+- [Земляничная поляна](http://www.kinopoisk.ru/film/508/) 1957
 
 ***
 
