@@ -4,50 +4,51 @@ title:  "Посмотреть"
 date:   2015-09-22 12:05:15
 ---
 
-- [Девушка с татуировкой дракона](http://www.kinopoisk.ru/film/491724/) 2011
-- [Ультраамериканцы](http://www.kinopoisk.ru/film/807399/) 2015
-- [Одержимость](http://www.kinopoisk.ru/film/725190/) 2013
-- [Бегущий в лабиринте: Испытание огнём](http://www.kinopoisk.ru/film/842673/) 2015
-- [Молчание ягнят](http://www.kinopoisk.ru/film/345/) 1990
-- [Марсианин](http://www.kinopoisk.ru/film/841700/) 2015
-- [Иллюзия обмана](http://www.kinopoisk.ru/film/522892/) 2013
-- [Одиннадцать друзей Оушена](http://www.kinopoisk.ru/film/770/) 2001
-- [Исход: Цари и боги](http://www.kinopoisk.ru/film/484611/) 2014
-- [007: СПЕКТР](http://www.kinopoisk.ru/film/678552/) 2015
-- [Кто боится Вирджинии Вульф?](http://www.kinopoisk.ru/film/490/) 1966
-- [Голодные игры](http://www.kinopoisk.ru/film/468581/) 2012
-- [Мальчишник в Вегасе](http://www.kinopoisk.ru/film/426004/) 2009
-- [Раба любви](http://www.kinopoisk.ru/film/42030/) 1975
-- [Голодные игры: И вспыхнет пламя](http://www.kinopoisk.ru/film/602373/) 2013
-- [Голодные игры: Сойка-пересмешница. Часть I](http://www.kinopoisk.ru/film/661911/) 2014
-- [Голодные игры: Сойка-пересмешница. Часть II](http://www.kinopoisk.ru/film/663715/) 2015
-- [Ностальгия](http://www.kinopoisk.ru/film/46464/) 1983
-- [Стажер](http://www.kinopoisk.ru/film/677893/) 2015
-- [Три идиота](http://www.kinopoisk.ru/film/423210/) 2009
-- [Дневник сельского священника](http://www.kinopoisk.ru/film/94546/) 1950
-- [Причастие](http://www.kinopoisk.ru/film/15183/) 1962
-- [Семнадцать мгновений весны](http://www.kinopoisk.ru/film/89540/) 1973
-- [Иррациональный человек](http://www.kinopoisk.ru/film/840992/) 2015
-- [Матч Поинт](http://www.kinopoisk.ru/film/81530/) 2005
-- [Джой](http://www.kinopoisk.ru/film/713051/) 2015
-- [Супер Майк](http://www.kinopoisk.ru/film/586488/) 2012
-- [Дэдпул](http://www.kinopoisk.ru/film/462360/) 2016
-- [В активном поиске](http://www.kinopoisk.ru/film/462538/) 2016
-- [Зверополис](http://www.kinopoisk.ru/film/775276/) 2016
-- [Назарин](http://www.kinopoisk.ru/film/59136/) 1958
-- [Земляничная поляна](http://www.kinopoisk.ru/film/508/) 1957
+[Девушка с татуировкой дракона](http://www.kinopoisk.ru/film/491724/) 2011<br>
+[Ультраамериканцы](http://www.kinopoisk.ru/film/807399/) 2015<br>
+[Одержимость](http://www.kinopoisk.ru/film/725190/) 2013<br>
+[Бегущий в лабиринте: Испытание огнём](http://www.kinopoisk.ru/film/842673/) 2015<br>
+[Молчание ягнят](http://www.kinopoisk.ru/film/345/) 1990<br>
+[Марсианин](http://www.kinopoisk.ru/film/841700/) 2015<br>
+[Иллюзия обмана](http://www.kinopoisk.ru/film/522892/) 2013<br>
+[Одиннадцать друзей Оушена](http://www.kinopoisk.ru/film/770/) 2001<br>
+[Исход: Цари и боги](http://www.kinopoisk.ru/film/484611/) 2014<br>
+[007: СПЕКТР](http://www.kinopoisk.ru/film/678552/) 2015<br>
+[Кто боится Вирджинии Вульф?](http://www.kinopoisk.ru/film/490/) 1966<br>
+[Голодные игры](http://www.kinopoisk.ru/film/468581/) 2012<br>
+[Мальчишник в Вегасе](http://www.kinopoisk.ru/film/426004/) 2009<br>
+[Раба любви](http://www.kinopoisk.ru/film/42030/) 1975<br>
+[Голодные игры: И вспыхнет пламя](http://www.kinopoisk.ru/film/602373/) 2013<br>
+[Голодные игры: Сойка-пересмешница. Часть I](http://www.kinopoisk.ru/film/661911/) 2014<br>
+[Голодные игры: Сойка-пересмешница. Часть II](http://www.kinopoisk.ru/film/663715/) 2015<br>
+[Ностальгия](http://www.kinopoisk.ru/film/46464/) 1983<br>
+[Стажер](http://www.kinopoisk.ru/film/677893/) 2015<br>
+[Три идиота](http://www.kinopoisk.ru/film/423210/) 2009<br>
+[Дневник сельского священника](http://www.kinopoisk.ru/film/94546/) 1950<br>
+[Причастие](http://www.kinopoisk.ru/film/15183/) 1962<br>
+[Семнадцать мгновений весны](http://www.kinopoisk.ru/film/89540/) 1973<br>
+[Иррациональный человек](http://www.kinopoisk.ru/film/840992/) 2015<br>
+[Матч Поинт](http://www.kinopoisk.ru/film/81530/) 2005<br>
+[Джой](http://www.kinopoisk.ru/film/713051/) 2015<br>
+[Супер Майк](http://www.kinopoisk.ru/film/586488/) 2012<br>
+[Дэдпул](http://www.kinopoisk.ru/film/462360/) 2016<br>
+[В активном поиске](http://www.kinopoisk.ru/film/462538/) 2016<br>
+[Зверополис](http://www.kinopoisk.ru/film/775276/) 2016<br>
+[Назарин](http://www.kinopoisk.ru/film/59136/) 1958<br>
+[Земляничная поляна](http://www.kinopoisk.ru/film/508/) 1957<br>
+[Огни большого города](http://www.kinopoisk.ru/film/414/) 1931<br>
 
 ***
 
-- [Плутовство](http://www.kinopoisk.ru/film/2989/) 1997
-- [Перелом](http://www.kinopoisk.ru/film/220617/) 2007
-- [Квартира](http://www.kinopoisk.ru/film/3720/) 1996
-- [Приключение](http://www.kinopoisk.ru/film/63930/) 1960
-- [Жестокие игры](http://www.kinopoisk.ru/film/12192/) 1999
-- [Проживая зиму](http://www.kinopoisk.ru/film/53951/) 2005
-- [Валентинка](http://www.kinopoisk.ru/film/404459/) 2010
-- [В диких условиях](http://www.kinopoisk.ru/film/252626/) 2007
-- [Обвиняемые](http://www.kinopoisk.ru/film/9842/) 1988
-- [Бобер](http://www.kinopoisk.ru/film/474521/) 2010
-- [И грянул гром](http://www.kinopoisk.ru/film/4473/) 2005
+[Плутовство](http://www.kinopoisk.ru/film/2989/) 1997<br>
+[Перелом](http://www.kinopoisk.ru/film/220617/) 2007<br>
+[Квартира](http://www.kinopoisk.ru/film/3720/) 1996<br>
+[Приключение](http://www.kinopoisk.ru/film/63930/) 1960<br>
+[Жестокие игры](http://www.kinopoisk.ru/film/12192/) 1999<br>
+[Проживая зиму](http://www.kinopoisk.ru/film/53951/) 2005<br>
+[Валентинка](http://www.kinopoisk.ru/film/404459/) 2010<br>
+[В диких условиях](http://www.kinopoisk.ru/film/252626/) 2007<br>
+[Обвиняемые](http://www.kinopoisk.ru/film/9842/) 1988<br>
+[Бобер](http://www.kinopoisk.ru/film/474521/) 2010<br>
+[И грянул гром](http://www.kinopoisk.ru/film/4473/) 2005
 
