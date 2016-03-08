@@ -35,8 +35,9 @@ date:   2015-09-22 12:05:15
 [В активном поиске](http://www.kinopoisk.ru/film/462538/) 2016<br>
 [Зверополис](http://www.kinopoisk.ru/film/775276/) 2016<br>
 [Назарин](http://www.kinopoisk.ru/film/59136/) 1958<br>
-[Земляничная поляна](http://www.kinopoisk.ru/film/508/) 1957<br>
-[Огни большого города](http://www.kinopoisk.ru/film/414/) 1931<br>
+[Земляничная поляна](http://www.kinopoisk.ru/film/508/) 1957 (06.03.16)<br>
+[Огни большого города](http://www.kinopoisk.ru/film/414/) 1931 (07.03.16)<br>
+[Мой король](http://www.kinopoisk.ru/film/821508/) 2015 (08.03.16)<br>
 
 ***
 
@@ -50,5 +51,10 @@ date:   2015-09-22 12:05:15
 [В диких условиях](http://www.kinopoisk.ru/film/252626/) 2007<br>
 [Обвиняемые](http://www.kinopoisk.ru/film/9842/) 1988<br>
 [Бобер](http://www.kinopoisk.ru/film/474521/) 2010<br>
-[И грянул гром](http://www.kinopoisk.ru/film/4473/) 2005
+[И грянул гром](http://www.kinopoisk.ru/film/4473/) 2005<br>
+[Все песни только о любви](http://www.kinopoisk.ru/film/281144/) 2007<br>
+[Твин Пикс](http://www.kinopoisk.ru/film/84358/) 1990-1991<br>
+[Шапито-шоу: Любовь и дружба](http://www.kinopoisk.ru/film/468201/) 2011<br>
+[Шапито-шоу: Уважение и сотрудничество](http://www.kinopoisk.ru/film/660895/) 2011
+
 
