@@ -38,7 +38,9 @@ date:   2015-09-22 12:05:15
 [Земляничная поляна](http://www.kinopoisk.ru/film/508/) 1957 <i>06.03.16</i><br>
 [Огни большого города](http://www.kinopoisk.ru/film/414/) 1931 <i>07.03.16</i><br>
 [Мой король](http://www.kinopoisk.ru/film/821508/) 2015 <i>08.03.16</i><br>
-[Венецианские львы](http://www.kinopoisk.ru/film/814482/) 2014 <i>27.03.16<i><br>
+[Венецианские львы](http://www.kinopoisk.ru/film/814482/) 2014 <i>27.03.16</i><br>
+[Даун Хаус](http://www.kinopoisk.ru/film/41149/) 2001 <i>14.04.16</i><br>
+[Как выйти замуж за 3 дня](http://www.kinopoisk.ru/film/427884/) 2009 <i>16.04.16</i><br>
 
 ***
 
@@ -62,5 +64,5 @@ date:   2015-09-22 12:05:15
 [Друзья](http://www.kinopoisk.ru/film/851364/) 2015<br>
 [Человек дождя](http://www.kinopoisk.ru/film/519/) 1988<br>
 [Милая Фрэнсис](http://www.kinopoisk.ru/film/677442/) 2012<br>
-
-
+[Формула любви](http://www.kinopoisk.ru/film/81432/) 1984<br>
+[Крейцерова соната](http://www.kinopoisk.ru/film/44972/) 1987<br>
