@@ -42,6 +42,7 @@ date:   2015-09-22 12:05:15
 [Даун Хаус](http://www.kinopoisk.ru/film/41149/) 2001 <i>14.04.16</i><br>
 [Как выйти замуж за 3 дня](http://www.kinopoisk.ru/film/427884/) 2009 <i>16.04.16</i><br>
 [Экипаж](http://www.kinopoisk.ru/film/839818/) 2016 <i>8.05.16</i><br>
+[Angry Birds в кино](http://www.kinopoisk.ru/film/609618/) 2016 <i>15.05.16</i><br>
 
 ***
 
@@ -68,3 +69,4 @@ date:   2015-09-22 12:05:15
 [Формула любви](http://www.kinopoisk.ru/film/81432/) 1984<br>
 [Крейцерова соната](http://www.kinopoisk.ru/film/44972/) 1987<br>
 [Трасса 60](http://www.kinopoisk.ru/film/3563/) 2001<br>
+[Учитель на замену](http://www.kinopoisk.ru/film/535337/) 2011<br>
